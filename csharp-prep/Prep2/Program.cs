@@ -36,7 +36,7 @@ class Program
             Console.WriteLine("B-");
         }
         
-          else if (grade >= 77  && grade <= 80)
+        else if (grade >= 77  && grade <= 80)
         {
             Console.WriteLine("C+");
         }

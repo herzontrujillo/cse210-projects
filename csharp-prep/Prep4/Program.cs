@@ -40,9 +40,21 @@ class Program
             // Print out the average
         Console.WriteLine($"{average} is the average");
 
-      
-    
-       
-    
+                    //Find the largest
+            //create the max variable
+        int max = numbers[0];
+        
+        foreach (int number in numbers)
+        {
+            // get the max with an if statement
+            if (number > max)
+            {
+                max = number;
+            }
+        }
+
+            //Print out the max number 
+        Console.WriteLine($"The largest is: {max}");
+        
     }       
 }

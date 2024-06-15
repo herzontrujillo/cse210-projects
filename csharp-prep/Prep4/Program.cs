@@ -34,6 +34,14 @@ class Program
         }
             //Print the total
         Console.WriteLine($"The sum of the numbers is: {addition}");
+
+                // Compute the average
+        float average = ((float)addition) / numbers.Count;
+            // Print out the average
+        Console.WriteLine($"{average} is the average");
+
+      
+    
        
     
     }       

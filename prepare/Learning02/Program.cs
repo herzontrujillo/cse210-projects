@@ -23,6 +23,8 @@ class Program
         userResume._name = "User";
 
         userResume._jobs.Add(job1);
+        userResume._jobs.Add(job2);
+
 
         userResume.Display();
 

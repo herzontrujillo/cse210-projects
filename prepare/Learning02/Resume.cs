@@ -10,7 +10,7 @@ public class Resume
    
     public void Display()
     {
-        Console.WriteLine($"Nmae: {_name} ");
+        Console.WriteLine($"Name: {_name} ");
         Console.WriteLine($"Jobs: ");
 
         // Create a loop for jobs and Display (method) jobs

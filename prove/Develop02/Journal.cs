@@ -64,12 +64,11 @@ public void LoadFromFile()
     }
     reader.Close();
 }
-
 public void ClosingMessage()
 {
-    PromptGenerator closing = new PromptGenerator();
-    
-    Console.WriteLine(closing._closingMessage);
+    PromptGenerator closingMessage = new PromptGenerator();
+    string message = closingMessage.ClosingMessage();
+    Console.WriteLine(message);
 }
 
 }

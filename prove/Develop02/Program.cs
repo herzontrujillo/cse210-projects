@@ -53,9 +53,7 @@ public class Program
 
                 // Option #5 exit            
                 case "5":
-                Console.WriteLine("*******");
-                journal.ClosingMessage();
-                Console.WriteLine("*******");
+               journal.ClosingMessage();
                 return;
 
                 default:

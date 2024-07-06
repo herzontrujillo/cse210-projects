@@ -30,7 +30,7 @@ public class PromptGenerator
     {
         "Dont forget God loves you.",
         "You are a lovely Human being.",
-        "Gos is always with you!",
+        "God is always with you!",
         "No matter how hard the situation is, you are not alone!"
     };
 

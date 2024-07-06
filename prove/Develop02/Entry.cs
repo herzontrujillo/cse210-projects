@@ -1,3 +1,8 @@
+using System;
+using System.Collections.Generic;
+// using System.Security.Cryptography;
+
+
 public class Entry
 {
     public string _date;
@@ -7,6 +12,8 @@ public class Entry
     public void Display()
     {
         
+        Console.WriteLine($"{_date} >{_promptText}\n {_entryText}");
+
     }
 
 }

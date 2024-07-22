@@ -1,5 +1,3 @@
-using System;
-
 public class Product
 {
     private string _name;
@@ -15,31 +13,17 @@ public class Product
         this._price = quantity;
     }
 
-    public string GetName()
+    public string GetName() {return _name;}
+
+    public string GetId() {return _id;}
+
+    public double GetQuantity() {return _quantity;}
+
+    public double GetIndividualPrice() {return _price;}
+
+    public double GetTotalPrice()
     {
-        return _name;
+        double total = _quantity * _price;
+        return total;
     }
-
-    public string GetId()
-    {
-        return _id;
-    }
-
-    public double GetQuantity()
-    {
-        return _quantity;
-    }
-
-    public double GetPrice()
-    {
-        return _price;
-    }
-
-
-
-
-
-
 }
-
-

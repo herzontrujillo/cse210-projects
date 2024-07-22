@@ -58,19 +58,29 @@ public class Activity
     }
     public void Spinner(int seconds)
     {
-        int spinnerLocation = 50;
-        spinnerLocation = Console.CursorLeft;
-
-        while (DateTime.Now != DateTime.Now.AddSeconds(2))    
-        {
-            char[] spin = new char[]{'+', 'x','+','x'};
-            foreach (char spinner in spin)
+        int spinners = 50;
+        for (int i = 0; i <= seconds; i += 1)    
             {
-                Console.CursorLeft = spinnerLocation;
-                Console.Write(spinner);
-                break;   
+                Thread.Sleep(250);
+                Console.Write("|");
+                Thread.Sleep(250);
+                Console.Write("/");
+                Thread.Sleep(250);
+                Console.Write("-");
+                Thread.Sleep(250);
+                Console.Write("|");
+                Thread.Sleep(250);
+                Console.Write("-");
+                Thread.Sleep(250);
+                Console.Write("\\");
+                Thread.Sleep(250);
+                Console.Write("|");
+                Thread.Sleep(250);
+                Console.Write("+");
+                spinners += 1;
             }
-        }
-        return;
+                Console.CursorLeft = spinners;
+                Console.Write("\b.\b\n");
+                return;   
     }        
 }
